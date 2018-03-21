@@ -1,6 +1,41 @@
+body {
+    margin: auto;
+    min-width: 1200px;
+}
+
 header {
-    background-image: url(./banners/Edited2%20life%20on%20mars.jpg);
-    background-position: center;
-    height: 380px;
-    background-repeat: no-repeat;
+    background-color: aliceblue;
+    width: 1200px;
+    height: 400px;
+    margin: auto;
+}
+
+nav {
+    margin: auto;
+    text-align: center;
+    width: 1200px;
+}
+
+.headerlink {
+    padding: 20px 39px;
+    position: relative;
+    top: 15px;
+    border: 1px solid;
+    background-color: #DA0043;
+    font-family: century gothic;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.headerlink:hover {
+    background-color: #DD0754;
+    
+}
+
+#headerlogo {
+    width: 180px;
+    position: relative;
+    left: 25px;
+    top: 25px;
 }
