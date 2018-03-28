@@ -1,6 +1,10 @@
 body {
-    margin: auto;
-    min-width: 1200px;
+   box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto
 }
 
 header {
@@ -30,7 +34,6 @@ nav {
 
 .headerlink:hover {
     background-color: #DD0754;
-    
 }
 
 #headerlogo {
@@ -39,3 +42,140 @@ nav {
     left: 25px;
     top: 25px;
 }
+
+.voorstellingen article {
+    width: 31.3%;
+    float: left;
+    margin: 1%;
+}
+
+.voorstellingen {
+    padding-top: 3%;
+}
+
+.box {
+    display: inline-block;
+    height: 450px;
+    background-color: #DD0754;
+}
+
+section article {
+    font-family: century gothic;
+    color: white;
+}
+
+section article h1 {
+    font-size: 30px;
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+section article p {
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+section article a {
+    margin-left: 220px;
+    display: block;
+    margin-top: 270px;
+    text-decoration: none;
+    color: white;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    grid-gap: 10px;
+}
+
+.grid-container > div {
+    background-color: #DD0754;
+    padding: 20px 0;
+    font-size: 30px;
+    border: 2px solid white;
+    height: 250px;
+    padding-left: 40px;
+    padding-top: 30px;
+    color: white;
+    font-size: 38px;
+    font-family: century gothic
+}
+
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.item4 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.grid-container > div p {
+    font-size: 17px;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    padding: 10px;
+    grid-gap: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.grid-container2 > div {
+    background-color: #DD0754;
+    padding: 20px 0;
+    font-size: 30px;
+    border: 2px solid white;
+    height: 150px;
+    padding-left:20px;
+    padding-top: 30px;
+    color: white;
+    font-size: 23px;
+    font-family: century gothic;
+}
+
+.grid-container2 > div p {
+    font-size: 17px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 0px;
+}
+
+footer > div {
+    background-color: #DA0043;
+    padding: 20px 0;
+    font-size: 30px;
+    height: 200px;
+    padding-left: 20px;
+    font-family: century gothic;
+    color: white;
+}
+
+footer div h2 {
+    font-size: 20px;
+}
+
+footer div img {
+    height: 180px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

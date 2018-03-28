@@ -9,32 +9,94 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Mogelijkheid om op je mobiel te kijken doordat de browser verkleint wordt-->
     </head>
     <body>
+        <div class="container">  <!-- Box om alles in te houden zodat alles in het midden van het beeldscherm blijft -->
         <header>
-            <a href="Home.html">
-                <img id="headerlogo" src="./Logo's/Rood%20imperium%20logo.png" /></a>
+            <a href="Home.html">  <!-- link naar home -->
+                <img id="headerlogo" src="./Logo's/Rood%20imperium%20logo.png" /></a> <!-- Logo dat gebruikt kan worden als escape hatch -->
         </header>
-            <nav>
-                <a class="headerlink" href='/Home.html'>Home</a>
-                <a class="headerlink" href='/lid-worden'>Lid worden</a>
-                <a class="headerlink" href='/vereniging'>Vereniging</a>
-                <a class="headerlink" href='/archief'>Archief</a>
-                <a class="headerlink" href='/agenda'>Agenda</a>
-                <a class="headerlink" href='/contact'>Contact</a>
-                <a class="headerlink" href='/zaal-huren'>Zaal huren</a>
+            <nav> <!-- navigatie groep waarin links naar andere pagina's van de website zich bevinden -->
+                <a class="headerlink" href="Home.html">Home</a> <!-- Een link naar homepagina -->
+                <a class="headerlink" href="Lidworden.html">Lid worden</a> <!-- Een link naar Lid worden -->
+                <a class="headerlink" href="Vereniging.html">Vereniging</a> <!-- Een link naar Vereniging -->
+                <a class="headerlink" href="Archief.html">Archief</a> <!-- Een link naar Archief -->
+                <a class="headerlink" href="Agenda.html">Agenda</a> <!-- Een link naar Agenda -->
+                <a class="headerlink" href="Contact.html">Contact</a> <!-- Een link naar Contact -->
+                <a class="headerlink" href="Zaalhuren.html">Zaal huren</a><!-- Een link naar Zaal huren die niet werkt -->
              </nav>
-        <content>
-            <article>
-                
-            </article>
-            <article>
-                
-            </article>
-            <article>
-                
-            </article>
-        </content>
-        <footer>
+        <main>  <!-- inhoud van de website -->
             
+            <section class="voorstellingen"> <!-- Groep om boxes binnen te houden -->
+                <article class="box"> <!-- Voorstelling box 1 -->
+                    <h1>Voorstelling 1</h1> <!-- Titel voor box -->
+                    <p>Korte zin over de voorstelling om duidelijk te maken waar het over gaat</p> <!-- tekst in box -->
+                    <a href="Archiefviewer">Lees meer...</a> <!-- Lees meer button die je naar voorstelling viewer stuurt -->
+                </article> 
+                <article class="box"> <!-- Voorstelling box 2 -->
+                    <h1>Voorstelling 2</h1> <!-- Titel voor box -->
+                    <p>Korte zin over de voorstelling om duidelijk te maken waar het over gaat</p> <!-- tekst in box -->
+                    <a href="Archiefviewer">Lees meer...</a> <!-- Lees meer button die je naar voorstelling viewer stuurt -->
+                </article> 
+                <article class="box"> <!-- Voorstelling box 3 -->
+                    <h1>Voorstelling 3</h1> <!-- Titel voor box -->
+                    <p>Korte zin over de voorstelling om duidelijk te maken waar het over gaat</p> <!-- tekst in box -->
+                    <a href="Archiefviewer">Lees meer...</a> <!-- Lees meer button die je naar voorstelling viewer stuurt -->
+                </article> 
+            </section>
+            
+            <div class="grid-container2"> <!-- Box om grid in te houden -->
+                <div class="item1.1">Ma 26/03 <!-- Aankondiging item1.1 en titel -->
+                    <p>- Repetitie<br />- Voorstelling</p> <!-- Activiteiten bullet list -->
+                </div>
+                <div class="item2.1">Di 26/03 <!-- Aankondiging item2.1 en titel -->
+                    <p>- Repetitie</p> <!-- Activiteiten bullet list -->
+                </div>
+                <div class="item3.1">Wo 26/03 <!-- Aankondiging item3.1 en titel -->
+                    <p>- Repetitie</p> <!-- Activiteiten bullet list -->
+                </div>
+                <div class="item4.1">Do 26/03 <!-- Aankondiging item4.1 en titel -->
+                    <p>- Repetitie<br />- Generaal<br />- Voorstelling</p> <!-- Activiteiten bullet list -->
+                </div>
+                <div class="item5.1">Vr 26/03 <!-- Aankondiging item5.1 en titel -->
+                    <p>- Repetitie<br />- Voorstelling</p> <!-- Activiteiten bullet list -->
+                </div>
+                <div class="item6.1">Za 26/03 <!-- Aankondiging item6.1 en titel -->
+                    <p>- Repetitie<br />- Voorstelling</p> <!-- Activiteiten bullet list -->
+                </div>
+                <div class="item7.1">Zo 26/03 <!-- Aankondiging item7.1 en titel -->
+                    <p>- Repetitie</p> <!-- Activiteiten bullet list -->
+                </div>
+            </div>
+            
+            <div class="grid-container">  <!-- Box om grid in te houden -->
+                <div class="item1">Lid worden  <!-- aankondiging item1 en Titel -->
+                    <p>Dit wordt een klein zinnetje om mensen <br /> op deze tile te laten klikken/hoveren </p> <!-- tekstje voor uitleg titel -->
+                </div>
+                <div class="item2">Meespelen? <!-- aankondiging item2 en Titel -->
+                    <p>Dit wordt een klein zinnetje om mensen <br /> op deze tile te laten klikken/hoveren </p> <!-- tekstje voor uitleg titel -->
+                </div>
+                <div class="item3">Nieuwsbrief <!-- aankondiging item3 en Titel -->
+                    <p>Dit wordt een klein zinnetje om mensen <br /> op deze tile te laten klikken/hoveren </p> <!-- tekstje voor uitleg titel -->
+                </div>  
+                <div class="item4">Voorstelling 1 <!-- aankondiging item4 en Titel -->
+                    <p>Dit wordt een klein zinnetje om mensen <br /> op deze tile te laten klikken/hoveren </p> <!-- tekstje voor uitleg titel -->
+                </div> 
+            </div>
+            
+        </main>
+        <footer>
+            <div class="item1.2">
+                <h2>Imperium theater:</h2>
+            </div>
+            <div class="item2.2">
+                <h2>Website:</h2>
+            </div>
+            <div class="item3.2">
+                <h2>Volg ons op:</h2>
+            </div>
+            <div class="item4.2">
+                <img src="Logo's/Rood imperium logo.png" />
+            </div>
         </footer>
+    </div>
     </body>
 </html>
