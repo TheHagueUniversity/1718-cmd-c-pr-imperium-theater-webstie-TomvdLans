@@ -1,3 +1,8 @@
+<!-- REVIEW
+Tom, dit zijn iets teveel comments
+probeer vooral functioneel te beschrijven, wat staat er in de sectie voorstellingen, wat is de bedoeling van de sectie lid worden.
+De bedoeling is dat andere developers begrijpen wat de bedoeling is. Nu ben je vooral HTML aan het uitleggen, en ik kan prima HTML lezen. Als er h1 staat, weet ik dat dat een titel is
+-->
 <!DOCTYPE html>
 <html>
     <head>
@@ -13,8 +18,14 @@
         <header>
             <a href="Home.html">  <!-- link naar home -->
                 <img id="headerlogo" src="./Logo's/Rood%20imperium%20logo.png" /></a> <!-- Logo dat gebruikt kan worden als escape hatch -->
+                <!-- REVIEW
+                Kijk uit met het gebruik van vreemde tekens, Logo's. Dit levert vaak problemen op.
+                -->
         </header>
             <nav> <!-- navigatie groep waarin links naar andere pagina's van de website zich bevinden -->
+              <!-- REVIEW
+              een menu wordt vaak gebouwd met een ul, de menuitems staan dan in een <li>
+              -->
                 <a class="headerlink" href="Home.html">Home</a> <!-- Een link naar homepagina -->
                 <a class="headerlink" href="Lidworden.html">Lid worden</a> <!-- Een link naar Lid worden -->
                 <a class="headerlink" href="Vereniging.html">Vereniging</a> <!-- Een link naar Vereniging -->
@@ -24,26 +35,32 @@
                 <a class="headerlink" href="Zaalhuren.html">Zaal huren</a><!-- Een link naar Zaal huren die niet werkt -->
              </nav>
         <main>  <!-- inhoud van de website -->
-            
+
             <section class="voorstellingen"> <!-- Groep om boxes binnen te houden -->
                 <article class="box"> <!-- Voorstelling box 1 -->
                     <h1>Voorstelling 1</h1> <!-- Titel voor box -->
                     <p>Korte zin over de voorstelling om duidelijk te maken waar het over gaat</p> <!-- tekst in box -->
                     <a href="Archiefviewer">Lees meer...</a> <!-- Lees meer button die je naar voorstelling viewer stuurt -->
-                </article> 
+                </article>
                 <article class="box"> <!-- Voorstelling box 2 -->
                     <h1>Voorstelling 2</h1> <!-- Titel voor box -->
                     <p>Korte zin over de voorstelling om duidelijk te maken waar het over gaat</p> <!-- tekst in box -->
                     <a href="Archiefviewer">Lees meer...</a> <!-- Lees meer button die je naar voorstelling viewer stuurt -->
-                </article> 
+                </article>
                 <article class="box"> <!-- Voorstelling box 3 -->
                     <h1>Voorstelling 3</h1> <!-- Titel voor box -->
                     <p>Korte zin over de voorstelling om duidelijk te maken waar het over gaat</p> <!-- tekst in box -->
                     <a href="Archiefviewer">Lees meer...</a> <!-- Lees meer button die je naar voorstelling viewer stuurt -->
-                </article> 
+                </article>
             </section>
-            
+            <!-- REVIEW
+            netjes!
+            -->
+
             <div class="grid-container2"> <!-- Box om grid in te houden -->
+              <!-- REVIEW
+              Dit zou wat mij betreft een lijst zijn
+              -->
                 <div class="item1.1">Ma 26/03 <!-- Aankondiging item1.1 en titel -->
                     <p>- Repetitie<br />- Voorstelling</p> <!-- Activiteiten bullet list -->
                 </div>
@@ -66,7 +83,7 @@
                     <p>- Repetitie</p> <!-- Activiteiten bullet list -->
                 </div>
             </div>
-            
+
             <div class="grid-container">  <!-- Box om grid in te houden -->
                 <div class="item1">Lid worden  <!-- aankondiging item1 en Titel -->
                     <p>Dit wordt een klein zinnetje om mensen <br /> op deze tile te laten klikken/hoveren </p> <!-- tekstje voor uitleg titel -->
@@ -76,12 +93,12 @@
                 </div>
                 <div class="item3">Nieuwsbrief <!-- aankondiging item3 en Titel -->
                     <p>Dit wordt een klein zinnetje om mensen <br /> op deze tile te laten klikken/hoveren </p> <!-- tekstje voor uitleg titel -->
-                </div>  
+                </div>
                 <div class="item4">Voorstelling 1 <!-- aankondiging item4 en Titel -->
                     <p>Dit wordt een klein zinnetje om mensen <br /> op deze tile te laten klikken/hoveren </p> <!-- tekstje voor uitleg titel -->
-                </div> 
+                </div>
             </div>
-            
+
         </main>
         <footer>
             <div class="item1.2">
