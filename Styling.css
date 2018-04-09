@@ -8,8 +8,9 @@ body {
     margin: 0 auto
 }
 
+                                    /* Header */
 header {
-    background-color: aliceblue;
+    background-image: url(banners/Edited2%20life%20on%20mars.jpg);
     width: 1200px;
     height: 400px;
     margin: auto;
@@ -19,13 +20,14 @@ nav {
     margin: auto;
     text-align: center;
     width: 1200px;
+    background-color: #DA0043;
+    height: 64px;
 }
 
 .headerlink {
-    padding: 20px 39px;
+    padding: 20px 40.5px;
     position: relative;
-    top: 15px;
-    border: 1px solid;
+    top: 20px;
     background-color: #DA0043;
     font-family: century gothic;
     text-decoration: none;
@@ -34,30 +36,53 @@ nav {
 }
 
 .headerlink:hover {
-    background-color: #DD0754;
+    background-color: white;
+    color: black;
 }
 
-#headerlogo {
+#onpage {
+    background-color: white;
+    color: black;
+}
+
+header a img {
     width: 180px;
     position: relative;
     left: 25px;
     top: 25px;
 }
 
+header a img:hover {
+    opacity: 0.8;
+}
+
+                                    /* 3 Voorstellingen showcase */
 .voorstellingen article {
     width: 31.3%;
     float: left;
-    margin: 1%;
+    margin: 12px;
 }
 
 .voorstellingen {
-    padding-top: 3%;
+    
 }
 
 .box {
     display: inline-block;
-    height: 450px;
+    height: 450px;      /* afbeelding grootte: h:450 w:353 */
     background-color: #DD0754;
+}
+
+#box1 {
+    background-image: url(Posters/edited%20poster%201.jpg)
+}
+
+#box2 {
+    background-image: url(Posters/edited%20poster%202.jpg)
+}
+
+#box3 {
+    background-image: url(Posters/edited%20poster%203.jpg)
 }
 
 section article {
@@ -85,54 +110,18 @@ section article a {
     color: white;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 10px;
-    grid-gap: 10px;
-}
-
-.grid-container > div {
-    background-color: #DD0754;
-    padding: 20px 0;
-    font-size: 30px;
-    border: 2px solid white;
-    height: 250px;
-    padding-left: 40px;
-    padding-top: 30px;
-    color: white;
-    font-size: 38px;
-    font-family: century gothic
-}
-
-.item1 {
-    grid-column-start: 1;
-    grid-column-end: 3;
-}
-
-.item4 {
-    grid-column-start: 2;
-    grid-column-end: 4;
-}
-
-.grid-container > div p {
-    font-size: 17px;
-}
-
+                                    /* Agenda van de week */
 .grid-container2 {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto;
     padding: 10px;
     grid-gap: 3px;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 .grid-container2 > div {
     background-color: #DD0754;
     padding: 20px 0;
     font-size: 30px;
-    border: 2px solid white;
     height: 150px;
     padding-left:20px;
     padding-top: 30px;
@@ -145,6 +134,51 @@ section article a {
     font-size: 17px;
 }
 
+                                    /* 4 Tiles met activiteiten */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    grid-gap: 10px;
+}
+
+.grid-container div h1 {
+    font-size: 34px;
+    margin: 10px;
+    margin-left: 0px;
+}
+
+.grid-container > div {
+    background-color: #DD0754;
+    padding: 20px 0;
+    font-size: 30px;
+    height: 250px;  /* afbeelding grootte blok 1&4: h:300 w:661 */
+    padding-left: 40px;
+    padding-top: 30px;
+    color: white;
+    font-size: 38px;
+    font-family: century gothic
+}
+
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-image: url(banners/edited%203%20clowns%20cropped.jpg);
+    background-repeat: no-repeat;
+}
+
+.item4 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-image: url(banners/weird%20picture%20cropped.jpg);
+    background-repeat: no-repeat;
+}
+
+.grid-container > div p {
+    font-size: 17px;
+}
+
+                                     /* Footer */
 footer {
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -162,9 +196,72 @@ footer > div {
 }
 
 footer div h2 {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 footer div img {
     height: 180px;
 }
+
+#impdata {
+    padding-left: 40px;
+}
+
+footer div p {
+    font-size: 17px;
+}
+
+footer div a {
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+}
+
+footer div a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+footer div ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+    margin-right: 40px;
+}
+
+footer div li {
+    margin-top: -5px;
+}
+
+footer div a img {
+    margin-top: 12px;
+}
+
+footer div a img:hover {
+    opacity: 0.9;
+}
+
+#icon {
+    margin-right: 39px;
+    margin-left: 10px;
+    display: inline-block;
+    float: left;
+    height: 60px;
+}
+
+#icontxt {
+    margin-right: 40px;
+    margin-left: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
