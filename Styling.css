@@ -8,6 +8,55 @@ body {
     margin: 0 auto
 }
 
+h1 {
+    color: white;
+    font-size: 38px;
+    font-family: century gothic;
+}
+
+h2 {
+    color: white;
+    font-size: 22px;
+    font-family: century gothic;
+}
+
+h3 {
+    color: white;
+    font-size: 17px;
+    font-family: century gothic;
+}
+
+h4 {
+    color: white;
+    font-size: 15px;
+    font-family: century gothic;
+    font-weight: normal;
+}
+
+p {
+    color: white;
+    font-size: 17px;
+    font-family: century gothic;
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    background-color: #DA0043;
+    padding: 30px 50px 30px 50px;
+    border 1px #DA0043 solid;
+    border-radius: 10px;
+    display: inline-block;
+    font-family: century gothic;
+    font-size: 25px;
+}
+
+.button:hover {
+    text-decoration: none;
+    color: black;
+    background-color: #DA0043;
+}
+
                                     /* Header */
 header {
     background-image: url(banners/Edited2%20life%20on%20mars.jpg);
@@ -53,7 +102,7 @@ header a img {
 }
 
 header a img:hover {
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
                                     /* 3 Voorstellingen showcase */
@@ -155,9 +204,6 @@ section article a {
     height: 250px;  /* afbeelding grootte blok 1&4: h:300 w:661 */
     padding-left: 40px;
     padding-top: 30px;
-    color: white;
-    font-size: 38px;
-    font-family: century gothic
 }
 
 .item1 {
@@ -175,7 +221,6 @@ section article a {
 }
 
 .grid-container > div p {
-    font-size: 17px;
 }
 
                                      /* Footer */
@@ -193,10 +238,6 @@ footer > div {
     padding-left: 20px;
     font-family: century gothic;
     color: white;
-}
-
-footer div h2 {
-    font-size: 22px;
 }
 
 footer div img {
@@ -255,9 +296,410 @@ footer div a img:hover {
     margin-left: 7px;
 }
 
+                                     /* Filler empty page */
+.blankspace {
+    height: 300px;
+}
+
+.blankspace h2 {
+    text-align: center;
+    padding-top: 120px;
+    color: black;
+    font-family: century gothic;
+}
+
+                                     /* Lid worden */
+.grid-container3 {
+    display: grid;
+    grid-template-columns: 585px 585px;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.grid-container3 > div {
+    font-size: 30px;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+.h {
+    grid-row-start: 1;
+    grid-row-end: 3;   
+    height: 620px;
+    background-color: #DD0754;
+}
+
+.i {
+    height: 370px;
+    background-image: url(banners/grumeme.jpg);
+    background-color: #DD0754;
+}
+
+.j {
+    height: 230px;
+    text-align: center;
+    background-color: white;
+}
+
+.j a{
+    margin-top: 70px;
+}
+
+.k {
+    height: 300px;
+    background-color: #DD0754;
+}
+
+.l {
+    grid-column-start: 2;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    height: 620px;
+    background-color: #DD0754;
+}
+
+.m {
+    background-image: url(banners/lidwordenfoto.jpg); /* afbeelding grotte: w:585 h:300 */
+    height: 300px;
+    background-color: #DD0754;
+}
+
+                                     /* Inschrijven */
+                                     /* Infobox */
+.info {
+    height: 200px;
+    width: 600px;
+    background-color: #DD0754;
+    margin: 5px auto;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.info h4 {
+    line-height: 30%;
+    margin-left: 30px;
+    margin-top: 0px;
+}
+
+.info h3 {
+    line-height: 30%;
+    margin-left: 30px;
+    margin-top: 33px;
+}
+
+.info p {
+    font-size: 15px;
+    display: inline;
+    width: 200px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 22px;
+}
+
+                                     /* Textinputbox */
+.typebar {
+    height: 400px;
+    width: 600px;
+    background-color: #DD0754;
+    margin: 5px auto;
+    text-align: center;
+}
+
+.typebar h2 {
+    margin: 0px;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+input[type=date], input[type=tel] {
+    text-align: center;
+    background-color: #DD0754;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    width: 250px;
+    text-align: left;
+    margin-left: 10px;
+    font-family: century gothic;
+}
+
+input[name=naam], input[name=woonplaats], input[name=adres] {
+    text-align: center;
+    background-color: #DD0754;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    width: 250px;
+    text-align: left;
+    margin-left: 10px;
+    font-family: century gothic;
+}
+
+::placeholder {
+    color:  white;
+    opacity: 1;
+}
+
+.gegevens {
+    margin-top: 50px;
+}
+
+label {
+    font-family: century gothic;
+    color: white;
+    display: block;
+    margin-bottom: 10px;
+    text-align: right;
+    margin-right: 100px;
+}
+
+.postcode {
+    text-align: center;
+    background-color: #DD0754;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    width: 118px;
+    text-align: left;
+    margin-left: 10px;
+    font-family: century gothic;
+}
+
+                                     /* Checkboxbox */
+.checkbox {
+    height: 580px;
+    width: 600px;
+    background-color: #DD0754;
+    margin: 0px auto;
+}
+
+.checkbox h2 {
+    text-align: center;
+    margin: 0px;
+    padding-top: 20px;
+}
+
+.checkboxform p {
+    display: inline;
+    margin-right: 10px;
+    font-size: 17px;
+}
+
+.checkboxform {
+    align-content: center;
+    margin-top: 30px;
+}
+
+.checkboxform label {
+    display: block;
+    position: relative;
+    margin-bottom: 11px;
+    text-align: left;
+    margin-left: 155px;
+}
+
+.checkboxform input {
+    float: left;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.interesse {
+    margin-top: 20px;
+}
+
+.interesse label {
+    text-align: left;
+}
+
+input[type=radio] {
+    float: left;
+    margin-left: 160px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+hr {
+    margin-top: 40px;
+    border: 0.6px solid white;
+    width: 500px;
+}
 
 
+                                     /* Opmerkingbox */
+.opmerking {
+    height: 300px;
+    width: 600px;
+    background-color: #DD0754;
+    margin: 5px auto;
+}
 
+.inschrijfbutton {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.inschrijfbutton .button {
+    padding: 25px 50px 25px 50px;
+}
+
+.opmerking h2 {
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+}
+
+textarea {
+    display: block;
+    margin: 0 auto;
+    border: 0px;
+    margin-top: 10px;
+    font-family: century gothic;
+    font-size: 13px;
+}
+
+                                     /* Vereniging */
+.grid-container4 {
+    display: grid;
+    grid-template-columns: 585px 585px;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.grid-container4 > div {
+    font-size: 30px;
+    color: white;
+}
+
+.n {
+    grid-row-start: 1;
+    grid-row-end: 3;   
+    height: 500px;
+    background-color: #DD0754;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.o {
+    grid-row-start: 1;
+    grid-row-end: 3;   
+    height: 500px;
+    background-color: #DD0754;
+    background-image: url(banners/man.jpg);
+    background-repeat: repeat;
+}
+
+.p {
+    height: 300px;
+    background-color: #DD0754;
+    background-image: url(banners/lidwordenfoto.jpg);
+    background-repeat: no-repeat;
+}
+
+.q {
+    height: 300px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #DD0754;
+}
+
+.q h2, .r h2 {
+    margin-top: 30px;
+}
+
+.r {
+    height: 350px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #DD0754;
+}
+
+.s {
+    height: 350px;
+    background-color: #DD0754;
+    background-image: url(banners/biertje.jpg); /* afbeelding grootte: w:585 h:350 */
+}
+
+                                     /* Archief */
+.bloka {
+    height: 500px;
+    background-color: #DD0754;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.jaartal {
+    margin: 0px;
+    padding: 20px;
+}
+
+section figcaption {
+    display: inline-block;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 10px;
+    font-family: century gothic;
+    color: white;
+    font-weight: bold;;
+    font-size: 20x;
+}
+
+section a img {
+    margin-left: 21px;
+    width: 270px;
+}
+
+section figure {
+    float: left;
+    margin: 0px;
+}
+
+                                     /* Archief */
+.bigbox {
+    width: 1180px;
+    height: 800px;
+    background: #DD0754;
+    margin: 10px auto;
+}
+
+.terugbutton {
+    display: inline-block;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-family: century gothic;
+    font-size: 18px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.terugbutton:hover {
+    box-shadow: 1px 2px black;
+    color: #DA0043;
+}
+
+.tekstbox {
+    margin: 0px;
+    margin-left: 30px;
+    width: 600px;
+}
+
+.tekstbox h2 {
+    margin-left: 40px;
+}
 
 
 
