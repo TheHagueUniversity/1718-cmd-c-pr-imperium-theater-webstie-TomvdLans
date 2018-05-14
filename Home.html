@@ -3,6 +3,7 @@ Tom, dit zijn iets teveel comments
 probeer vooral functioneel te beschrijven, wat staat er in de sectie voorstellingen, wat is de bedoeling van de sectie lid worden.
 De bedoeling is dat andere developers begrijpen wat de bedoeling is. Nu ben je vooral HTML aan het uitleggen, en ik kan prima HTML lezen. Als er h1 staat, weet ik dat dat een titel is
 -->
+<!-- REVIEW: De homepagina noem je altijd index.html -->
 <!DOCTYPE html>
 <html>
     <head>
@@ -10,7 +11,7 @@ De bedoeling is dat andere developers begrijpen wat de bedoeling is. Nu ben je v
         <title>ImperiumTheater</title>
         <link rel="stylesheet" type="text/css" href="Styling.css"/>
         <meta name="description" content="Theatergroep Imperium">
-        <meta name="Keywords" content="HTML,CSS">
+        <meta name="Keywords" content="HTML,CSS"><!-- REVIEW: waarom zijn dit relevante keywords waarop deze pagina moet worden gevonden? -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
@@ -20,7 +21,8 @@ De bedoeling is dat andere developers begrijpen wat de bedoeling is. Nu ben je v
                 <img id="headerlogo" src="./Logo's/Rood%20imperium%20logo.png" />
             </a> <!-- afbeelding imperium dat gebruikt kan worden home terug naar home te gaan -->
         </header>
-            
+          <!-- REVIEW: navigatie mag ook gewoon in de header geplaatst worden -->
+
             <nav> <!-- navigatie-groep waarin links naar andere pagina's van de website zich bevinden -->
               <!-- REVIEW
               een menu wordt vaak gebouwd met een ul, de menuitems staan dan in een <li>
@@ -33,7 +35,7 @@ De bedoeling is dat andere developers begrijpen wat de bedoeling is. Nu ben je v
                 <a class="headerlink" href="Contact.html">Contact</a>
                 <a class="headerlink" >Zaal huren</a> <!-- Een link naar Zaal huren die niet werkt -->
              </nav>
-            
+
         <main>  <!-- inhoud van de website -->
             <section class="voorstellingen"> <!-- Groep om boxes binnen te houden -->
                 <article class="box" id="box1">
@@ -92,7 +94,7 @@ De bedoeling is dat andere developers begrijpen wat de bedoeling is. Nu ben je v
                 </div>
             </section>
         </main>
-            
+
         <footer> <!-- onderste balk van de website -->
             <div id="impdata">
                 <h2>Imperium theater:</h2>  <!-- dat over Imperium -->
@@ -112,7 +114,7 @@ De bedoeling is dat andere developers begrijpen wat de bedoeling is. Nu ben je v
                     <li><a href="">Agenda</a></li>
                     <li><a href="">Contact</a></li>
                     <li><a href="">Zaal huren</a></li>
-                </ul>  
+                </ul>
             </div>
             <div>
                 <h2>Volg ons op:</h2> <!-- social media linkjes -->
